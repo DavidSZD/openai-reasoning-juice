@@ -1,0 +1,74 @@
+{
+  "description": "Internal reasoning budget (Juice) values observed in the ChatGPT Web UI across subscription tiers.",
+  "tiers": {
+    "free": {
+      "gpt-5-mini": {
+        "router": 18,
+        "thinking": 32
+      },
+      "gpt-6-luna": {
+        "instant": 2,
+        "thinking": 16
+      }
+    },
+    "paid": {
+      "gpt-5": {
+        "light": 5,
+        "standard": 18,
+        "extended": 64,
+        "heavy": 200,
+        "router": 64,
+        "thinking": 128
+      },
+      "gpt-5-thinking-mini": 32,
+      "gpt-5.1": {
+        "instant": 16,
+        "light": 16,
+        "standard": 96,
+        "extended": 256,
+        "heavy": 512,
+        "router": 48,
+        "thinking": 128
+      },
+      "gpt-5.2": {
+        "instant": 8,
+        "light": 16,
+        "standard": 64,
+        "extended": 256,
+        "heavy": 768,
+        "router": 16
+      },
+      "gpt-5.4": {
+        "light": 8,
+        "standard": 16,
+        "extended": 96,
+        "heavy": 512
+      },
+      "gpt-5.5": {
+        "light": 12,
+        "standard": 24,
+        "extended": 192,
+        "xhigh": 768
+      },
+      "gpt-5.6-sol": {
+        "initial": {
+          "medium": 8,
+          "high": 48,
+          "xhigh": 112
+        },
+        "updated": {
+          "instant": 2,
+          "medium": 6,
+          "high": 42
+        }
+      },
+      "gpt-6-sol": {
+        "instant": 4,
+        "medium": 6,
+        "high": 42,
+        "xhigh": 122
+      },
+      "o3": 128
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "description": "Exhaustive database of internal reasoning budgets (Juice) across OpenAI models (API and Codex).",
+  "last_updated": "2026-11-17",
+  "models": {
+    "gpt-5": {
+      "family": "GPT-5",
+      "benchmarks": {
+        "api": {
+          "minimal": 5,
+          "low": 16,
+          "medium": 64,
+          "high": 200
+        },
+        "codex": {
+          "low": 64,
+          "medium": 192,
+          "high": 256
+        },
+        "mini": {
+          "minimal": 5,
+          "low": 8,
+          "medium": 32,
+          "high": 256
+        }
+      }
+    },
+    "gpt-5.1": {
+      "family": "GPT-5.1",
+      "chat_default": 16,
+      "benchmarks": {
+        "api": {
+          "none": 0,
+          "low": 16,
+          "medium": 64,
+          "high": 256
+        },
+        "codex": {
+          "low": 64,
+          "medium": 192,
+          "high": 256
+        }
+      }
+    },
+    "gpt-5.2": {
+      "family": "GPT-5.2",
+      "chat_default": 8,
+      "benchmarks": {
+        "api": {
+          "none": 0,
+          "low": 16,
+          "medium": 64,
+          "high": 256,
+          "xhigh": 768
+        },
+        "codex": {
+          "low": 256,
+          "medium": 400,
+          "high": 600,
+          "xhigh": 768
+        }
+      }
+    },
+    "gpt-5.3": {
+      "family": "GPT-5.3",
+      "benchmarks": {
+        "codex": {
+          "low": 24,
+          "medium": 54,
+          "high": 256,
+          "xhigh": 768
+        }
+      }
+    },
+    "gpt-5.4": {
+      "family": "GPT-5.4",
+      "chat_default": 8,
+      "benchmarks": {
+        "api": {
+          "none": 0,
+          "low": 16,
+          "medium": 48,
+          "high": 128,
+          "xhigh": 768
+        },
+        "codex": {
+          "low": 12,
+          "medium": 20,
+          "high": 96,
+          "xhigh": 512
+        },
+        "mini": {
+          "none": 0,
+          "low": 8,
+          "medium": 24,
+          "high": 64,
+          "xhigh": 768
+        },
+        "nano": {
+          "none": 0,
+          "low": 8,
+          "medium": 24,
+          "high": 64,
+          "xhigh": 512
+        },
+        "pro": {
+          "medium": 256,
+          "high": 512,
+          "xhigh": 768
+        }
+      }
+    },
+    "gpt-5.5": {
+      "family": "GPT-5.5",
+      "benchmarks": {
+        "api": {
+          "none": 0,
+          "low": 12,
+          "medium": 48,
+          "high": 128,
+          "xhigh": 768
+        },
+        "codex": {
+          "low": 12,
+          "medium": 24,
+          "high": 96,
+          "xhigh": 768
+        }
+      }
+    },
+    "gpt-5.6-sol": {
+      "family": "GPT-5.6",
+      "variant": "sol",
+      "benchmarks": {
+        "codex_work_api": {
+          "low": 8.085,
+          "medium": 16.885,
+          "high": 40,
+          "xhigh": 128,
+          "max": 960
+        }
+      }
+    },
+    "gpt-5.6-terra": {
+      "family": "GPT-5.6",
+      "variant": "terra",
+      "benchmarks": {
+        "codex_work_api": {
+          "low": 12,
+          "medium": 16,
+          "high": 32,
+          "xhigh": 84,
+          "max": 960
+        }
+      }
+    },
+    "gpt-5.6-luna": {
+      "family": "GPT-5.6",
+      "variant": "luna",
+      "benchmarks": {
+        "codex_work_api": {
+          "low": 8,
+          "medium": 16,
+          "high": 48,
+          "xhigh": 128,
+          "max": 768
+        }
+      }
+    },
+    "codex-max": {
+      "family": "Codex Max Special",
+      "benchmarks": {
+        "codex": {
+          "low": 32,
+          "medium": 144,
+          "high": 192,
+          "xhigh": 232
+        }
+      }
+    },
+    "gpt-6-luna": {
+      "family": "GPT-6",
+      "variant": "luna",
+      "benchmarks": {
+        "api": {
+          "low": 4,
+          "medium": 12,
+          "high": 24,
+          "xhigh": 64,
+          "max": 768
+        },
+        "codex": {
+          "low": 1,
+          "medium": 3,
+          "high": 6,
+          "xhigh": 25,
+          "max": 70
+        }
+      }
+    },
+    "gpt-6-sol": {
+      "family": "GPT-6",
+      "variant": "sol",
+      "benchmarks": {
+        "api": {
+          "low": 4,
+          "medium": 12,
+          "high": 24,
+          "xhigh": 64,
+          "max": 768
+        },
+        "codex": {
+          "low": 1,
+          "medium": 10,
+          "high": 15,
+          "xhigh": 21,
+          "max": 62
+        }
+      }
+    },
+    "gpt-6-astra": {
+      "family": "GPT-6",
+      "variant": "astra",
+      "benchmarks": {
+        "api": {
+          "low": 4,
+          "medium": 12,
+          "high": 24,
+          "xhigh": 64,
+          "max": 768
+        },
+        "codex": {
+          "low": 2,
+          "medium": 4,
+          "high": 10,
+          "xhigh": 32,
+          "max": 128
+        }
+      }
+    },
+    "gpt-6.1-sol": {
+      "family": "GPT-6.1",
+      "variant": "sol",
+      "benchmarks": {
+        "api": {
+          "low": 4,
+          "medium": 10,
+          "high": 24,
+          "xhigh": [
+            64,
+            96
+          ],
+          "max": 832
+        },
+        "codex": {
+          "low": 2,
+          "medium": 7,
+          "high": 13,
+          "xhigh": 56,
+          "max": 168
+        }
+      }
+    },
+    "gpt-6.1-terra": {
+      "family": "GPT-6.1",
+      "variant": "terra",
+      "benchmarks": {
+        "api": {
+          "low": 4,
+          "medium": 12,
+          "high": 24,
+          "xhigh": 64,
+          "max": 832
+        },
+        "codex": {
+          "low": 1,
+          "medium": 2,
+          "high": 4,
+          "xhigh": 10,
+          "max": 128
+        }
+      }
+    },
+    "gpt-6.2-sol": {
+      "family": "GPT-6.2",
+      "variant": "sol",
+      "status": "Mesure Officielle Novembre 2026",
+      "benchmarks": {
+        "api": {
+          "endpoint": "https://api.openai.com/v1/responses",
+          "low": 8,
+          "medium": 48,
+          "high": 128,
+          "xhigh": 384,
+          "max": 832
+        },
+        "codex": {
+          "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+          "low": 16,
+          "medium": 42,
+          "high": 100,
+          "xhigh": 200,
+          "max": 832
+        }
+      },
+      "measured_date": "2026-11-17"
+    },
+    "gpt-6.2-astra": {
+      "family": "GPT-6.2",
+      "variant": "astra",
+      "status": "Mesure Officielle Novembre 2026",
+      "benchmarks": {
+        "api": {
+          "endpoint": "https://api.openai.com/v1/responses",
+          "low": 4,
+          "medium": 16,
+          "high": 64,
+          "xhigh": 128,
+          "max": 832
+        },
+        "codex": {
+          "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+          "low": 4,
+          "medium": 10,
+          "high": 28,
+          "xhigh": 64,
+          "max": 832
+        }
+      },
+      "measured_date": "2026-11-17"
+    },
+    "o3": {
+      "family": "O-Series",
+      "benchmarks": {
+        "api": {
+          "low": 32,
+          "medium": 64,
+          "high": 512
+        }
+      }
+    },
+    "codex-web": {
+      "family": "Web Codex Runtime",
+      "benchmarks": {
+        "web": {
+          "default": 32
+        }
+      }
+    }
+  },
+  "note": "OpenAI periodically updates and recalibrates internal reasoning budgets. Figures reflect empirical measurements at probing time and may have changed since recording."
+}
